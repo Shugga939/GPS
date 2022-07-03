@@ -38,36 +38,34 @@
     background-color: $text-color__dark;
     text-transform: uppercase;
   }
+
+  &--primary_orange {
+    border: none;
+    color: inherit;
+    background-color: $bg-color__orange;
+  }
 }
 
 
-// .btn-s {
-//   font-family: 'Open Sans';
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 28px;
-//   /* or 200% */
-//   letter-spacing: 0.2px;
-//   padding: 15px 21.5px;
-//   text-transform: capitalize;
-//   height: min-content;
+.btn-s {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 17.5px 64px;
+  border-radius: 5px;
 
-  
-//   &:hover {
-//     cursor: pointer;
-//   }
+  &:hover {
+    cursor: pointer;
+  }
 
-//   &--primary {
-//     border: none;
-//     color: #ffffff;
-//     background-color: $primary-color;
+  &--primary_orange {
+    border: none;
+    color: $text-color__dark;
+    background-color: $bg-color__orange;
+    text-transform: uppercase;
+  }
 
-//   }
-//   &--bordered {
-//     background-color: transparent;
-//     border: 1px solid $primary-color;
-//     color: $primary-color;
-//   }
-// }
+}
 
