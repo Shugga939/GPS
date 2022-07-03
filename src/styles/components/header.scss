@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  display: flex;
+  padding: 20px 50px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+
+  &__body {
+    flex: 0 1 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+  }
+
+  &__left-row {
+    height: 100%;
+    display: flex;
+    margin-right: 100px;
+  }
+
+  &__logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 210px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  &__slogan {
+    height: 100%;
+    border-left: 1px solid #3B393C;
+    width: 250px;
+    margin-left: 10px;
+    padding-left: 20px;
+    width: min-content;
+
+    h3 {
+      letter-spacing: 0em;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+
+  &__right-row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__phone {
+    display: flex;
+    font-weight: 600;
+
+    p {
+      margin-left: 20px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    margin-left: 40px;
+  }
+
+
+}
