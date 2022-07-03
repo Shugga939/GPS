@@ -1,4 +1,4 @@
-.btn-r {
+.btn-r-h {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
@@ -6,6 +6,7 @@
   line-height: 25px;
   padding: 10px 20px;
   border-radius: 30px;
+  color: #000000;
 
   &:hover {
     cursor: pointer;
@@ -15,9 +16,30 @@
     border: none;
     color: inherit;
     background-color: $bg-color__orange;
-
   }
 }
+
+.btn-r-m {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  border-radius: 43px;
+  padding: 10px 20px;
+  
+
+  &:hover {
+    cursor: pointer;
+  }
+  
+  &--primary_dark {
+    border: none;
+    color: white;
+    background-color: $text-color__dark;
+    text-transform: uppercase;
+  }
+}
+
 
 // .btn-s {
 //   font-family: 'Open Sans';
