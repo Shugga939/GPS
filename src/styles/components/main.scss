@@ -13,9 +13,16 @@
     padding: 110px 0;
     margin: 0 30px;
   }
+
+  &__benefits {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 0 70px;
+  }
 }
 
-
+// === advertisement section
 .slogan {
   color: $text-color__white;
   max-width: 670px;
@@ -108,3 +115,70 @@
     margin-bottom: 40px;
   }
 }
+
+// === benefits section
+.benefits {
+  position: relative;
+  flex: 0 1 1780px;
+  border: 1px solid #000000;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #c4c4c465;
+  padding: 4px;
+  height: 100%;
+
+  &__wrapper {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    height: 100%;
+    background: white;
+    padding: 90px 60px;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 90px;
+    column-gap: 30px;
+  }
+
+  &__title {
+    position: absolute;
+    margin: 0;
+    height: 30px;
+    width: 567px;
+    top: -15px;
+    background-color: white;
+    text-align: center;
+
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 14px;
+      height: 6px;
+      width: 565px;
+      border-right: 1px solid #000000;
+      border-left: 1px solid #000000;
+    }
+  }
+}
+
+.benefit {
+  display: flex;
+  min-width: 520px;
+  height: 80px;
+  align-items: center;
+  max-width: 520px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  p {
+    margin-left: 40px;
+  }
+}
+
+// === real-estate section
